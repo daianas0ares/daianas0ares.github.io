@@ -24,6 +24,7 @@
 							{
 							"symbol": "FX:EURUSD",
 							"width": 350,
+						    "height": 150,
 							"colorTheme": "dark",
 							"isTransparent": false,
 							"locale": "br"
@@ -41,6 +42,7 @@
 							{
 							"symbol": "FX:GBPUSD",
 							"width": 350,
+							"height": 150,
 							"colorTheme": "dark",
 							"isTransparent": false,
 							"locale": "br"
@@ -65,7 +67,7 @@
 							"isTransparent": false,
 							"showSymbolLogo": true,
 							"width": "350",
-							"height": "465",
+							"height": "400",
 							"tabs": [
 							{
 								"title": "Emergentes G20",
@@ -208,6 +210,196 @@
 
 
 			<!-- Terceira coluna-->
+			<td>
+				<!-- TradingView Widget BEGIN -->
+				<div class="tradingview-widget-container">
+					<div class="tradingview-widget-container__widget"></div>
+					<div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/markets/futures/" rel="noopener" target="_blank"><span class="blue-text">Preço de Commodities</span></a> por TradingView</div>
+					<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+					{
+					"title": "Commodities",
+					"width": 770,
+					"height": 450,
+					"locale": "br",
+					"showSymbolLogo": true,
+					"symbolsGroups": [
+					{
+						"name": "Energia",
+						"symbols": [
+						{
+							"name": "NYMEX:CL1!",
+							"displayName": "Petróleo bruto"
+						},
+						{
+							"name": "NYMEX:NG1!",
+							"displayName": "Gás natural"
+						},
+						{
+							"name": "TVC:UKOIL",
+							"displayName": "Petróleo Brent"
+						},
+						{
+							"name": "NYMEX:RB1!",
+							"displayName": "Gasolina"
+						},
+						{
+							"name": "NYMEX:HO1!",
+							"displayName": "Óleo de calefação"
+						},
+						{
+							"name": "NYMEX:AEZ1!",
+							"displayName": "Etanol"
+						}
+						]
+					},
+					{
+						"name": "Metais",
+						"symbols": [
+						{
+							"name": "COMEX:GC1!",
+							"displayName": "Ouro"
+						},
+						{
+							"name": "COMEX:SI1!",
+							"displayName": "Prata"
+						},
+						{
+							"name": "NYMEX:PL1!",
+							"displayName": "Platina"
+						},
+						{
+							"name": "COMEX_MINI:QC1!",
+							"displayName": "Cobre"
+						},
+						{
+							"name": "COMEX:ZNC1!",
+							"displayName": "Zinco"
+						}
+						]
+					},
+					{
+						"name": "Agrícola",
+						"symbols": [
+						{
+							"name": "NYMEX:KT1!",
+							"displayName": "Café"
+						},
+						{
+							"name": "NYMEX:TT1!",
+							"displayName": "Algodão"
+						},
+						{
+							"name": "CBOT:ZS1!",
+							"displayName": "Soja"
+						},
+						{
+							"name": "CBOT:ZW1!",
+							"displayName": "Trigo"
+						},
+						{
+							"name": "NYMEX:YO1!",
+							"displayName": "Açúcar"
+						},
+						{
+							"name": "CBOT:ZC1!",
+							"displayName": "Milho"
+						}
+						]
+					},
+					{
+						"name": "Moedas",
+						"symbols": [
+						{
+							"name": "CME:6E1!",
+							"displayName": "Euro"
+						},
+						{
+							"name": "CME:6B1!",
+							"displayName": "Libra Britânica"
+						},
+						{
+							"name": "CME:6J1!",
+							"displayName": "Iene Japonês"
+						},
+						{
+							"name": "CME:6S1!",
+							"displayName": "Franco Suíço"
+						},
+						{
+							"name": "CME:6A1!",
+							"displayName": "Dólar Australiano"
+						},
+						{
+							"name": "CME:6C1!",
+							"displayName": "Dólar Canadense"
+						}
+						]
+					},
+					{
+						"name": "Índices",
+						"symbols": [
+						{
+							"name": "CME:SP1!",
+							"displayName": "S&P 500"
+						},
+						{
+							"name": "CME_MINI:NQ1!",
+							"displayName": "Nasdaq 1000"
+						},
+						{
+							"name": "CBOT_MINI:YM1!",
+							"displayName": "Dow 30"
+						},
+						{
+							"name": "CME:NKD1!",
+							"displayName": "Nikkei 225"
+						},
+						{
+							"name": "EUREX:FDAX1!",
+							"displayName": "DAX"
+						},
+						{
+							"name": "CME:IBV1!",
+							"displayName": "IBovespa"
+						}
+						]
+					},
+					{
+						"name": "Taxas de juros",
+						"symbols": [
+						{
+							"name": "CBOT:ZN1!",
+							"displayName": "T-Note de 10 anos"
+						},
+						{
+							"name": "CBOT:ZF1!",
+							"displayName": "T-Note de 5 Anos"
+						},
+						{
+							"name": "CBOT:Z3N1!",
+							"displayName": "T-Note de 3 Anos"
+						},
+						{
+							"name": "CBOT:ZT1!",
+							"displayName": "T-Note de 2 Anos"
+						},
+						{
+							"name": "CBOT:ZQ1!",
+							"displayName": "Juros Fundos de 30 dias do FED"
+						},
+						{
+							"name": "CBOT:ZB1!",
+							"displayName": "T-Bond"
+						}
+						]
+					}
+					],
+					"colorTheme": "light"
+					}
+					</script>
+				</div>
+				<!-- TradingView Widget END -->
+			</td>
 			<td valign="top">
 				<iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_inflation,_credit,_centralBanks,_confidenceIndex,_balance,_Bonds&importance=2,3&features=datepicker,timezone,timeselector,filters&countries=17,32,6,37,5,39,35,4,9,12,72&calType=day&timeZone=12&lang=12" width="650" height="467" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"></div>
 			</td>
