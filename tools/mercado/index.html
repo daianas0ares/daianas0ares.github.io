@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -21,14 +21,19 @@
 						<div class="tradingview-widget-container">
 							<div class="tradingview-widget-container__widget"></div>
 							<div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/EURUSD/?exchange=FX" rel="noopener" target="_blank"></div>
-							<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+							<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
 							{
 							"symbol": "FX:EURUSD",
-							"width": 350,
-						    "height": 150,
+							"width": "350",
+							"height": "150",
+							"locale": "br",
+							"dateRange": "1D",
 							"colorTheme": "dark",
+							"trendLineColor": "#37a6ef",
+							"underLineColor": "rgba(55, 166, 239, 0.15)",
 							"isTransparent": false,
-							"locale": "br"
+							"autosize": false,
+							"largeChartUrl": ""
 							}
 							</script>
 						</div>
@@ -39,14 +44,19 @@
 						<div class="tradingview-widget-container">
 							<div class="tradingview-widget-container__widget"></div>
 							<div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/GBPUSD/?exchange=FX" rel="noopener" target="_blank"></div>
-							<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+							<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
 							{
 							"symbol": "FX:GBPUSD",
-							"width": 350,
-							"height": 150,
+							"width": "350",
+							"height": "150",
+							"locale": "br",
+							"dateRange": "1D",
 							"colorTheme": "dark",
+							"trendLineColor": "#37a6ef",
+							"underLineColor": "rgba(55, 166, 239, 0.15)",
 							"isTransparent": false,
-							"locale": "br"
+							"autosize": false,
+							"largeChartUrl": ""
 							}
 							</script>
 						</div>
@@ -146,70 +156,76 @@
 
 			<!-- Segunda coluna-->
 			<td valign="top" align="center">
-				<!-- TradingView Widget BEGIN -->
-				<div class="tradingview-widget-container">
-					<div class="tradingview-widget-container__widget"></div>
-					<div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/markets/indices/" rel="noopener" target="_blank"></div>
-					<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-					{
-					"colorTheme": "dark",
-					"dateRange": "1D",
-					"showChart": true,
-					"locale": "br",
-					"largeChartUrl": "",
-					"isTransparent": false,
-					"showSymbolLogo": true,
-					"width": "350",
-					"height": "660",
-					"plotLineColorGrowing": "rgba(25, 118, 210, 1)",
-					"plotLineColorFalling": "rgba(25, 118, 210, 1)",
-					"gridLineColor": "rgba(42, 46, 57, 1)",
-					"scaleFontColor": "rgba(120, 123, 134, 1)",
-					"belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
-					"belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
-					"symbolActiveColor": "rgba(33, 150, 243, 0.12)",
-					"tabs": [
-					{
-						"title": "Índices",
-						"symbols": [
-						{
-							"s": "FOREXCOM:SPXUSD",
-							"d": "S&P 500"
-						},
-						{
-							"s": "FOREXCOM:NSXUSD",
-							"d": "Nasdaq 100"
-						},
-						{
-							"s": "INDEX:NKY",
-							"d": "Nikkei 225"
-						},
-						{
-							"s": "FOREXCOM:UKXGBP",
-							"d": "FTSE 100"
-						},
-						{
-							"s": "FOREXCOM:DJI\t",
-							"d": "Dow 30"
-						},
-						{
-							"s": "INDEX:DEU30",
-							"d": "DAX"
-						}
-						],
-						"originalTitle": "Indices"
-					}
-					]
-					}
-					</script>
-				</div>
-				<!-- TradingView Widget END -->
+				<table>
+					<tr>
+						<td>
+							<!-- TradingView Widget BEGIN -->
+							<div class="tradingview-widget-container">
+								<div class="tradingview-widget-container__widget"></div>
+								<div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/markets/indices/" rel="noopener" target="_blank"></div>
+								<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+							{
+							"colorTheme": "dark",
+							"dateRange": "1D",
+							"showChart": true,
+							"locale": "br",
+							"largeChartUrl": "",
+							"isTransparent": false,
+							"showSymbolLogo": true,
+							"width": "350",
+							"height": "660",
+							"plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+							"plotLineColorFalling": "rgba(25, 118, 210, 1)",
+							"gridLineColor": "rgba(42, 46, 57, 1)",
+							"scaleFontColor": "rgba(120, 123, 134, 1)",
+							"belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+							"belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+							"symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+							"tabs": [
+							{
+								"title": "Índices",
+								"symbols": [
+								{
+									"s": "FOREXCOM:SPXUSD",
+									"d": "S&P 500"
+								},
+								{
+									"s": "FOREXCOM:NSXUSD",
+									"d": "Nasdaq 100"
+								},
+								{
+									"s": "INDEX:NKY",
+									"d": "Nikkei 225"
+								},
+								{
+									"s": "FOREXCOM:UKXGBP",
+									"d": "FTSE 100"
+								},
+								{
+									"s": "FOREXCOM:DJI\t",
+									"d": "Dow 30"
+								},
+								{
+									"s": "INDEX:DEU30",
+									"d": "DAX"
+								}
+								],
+								"originalTitle": "Indices"
+							}
+							]
+							}
+								</script>
+							</div>
+							<!-- TradingView Widget END -->
+						</td>
+					</tr>
+				</table>
 			</td>
 
 
 			<!-- Terceira coluna-->
 			<td valign="top" align="center">
-				<table cellpadding="5">
+				<table>
 					<tr>
 						<td valign="top">
 							<!-- TradingView Widget BEGIN -->
